@@ -1,40 +1,111 @@
 # my e-Wish
 
-**A little corner of the internet for big feelings.**
+<p align="center">
+  <strong>A little corner of the internet for big feelings.</strong><br />
+  Make a personal, beautiful wish they can keep.
+</p>
 
-my e-Wish is a multi-user Next.js app for making personal, shareable surprise
-pages for birthdays, anniversaries, weddings, milestones, fresh starts, and
-ordinary days worth remembering. Creators choose a mood, make a page their own,
-add photos, then tuck in a private note, memory, quote, or question game.
+<p align="center">
+  <a href="https://my-e-wish.vercel.app/"><strong>Visit the live website ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://my-e-wish.vercel.app/demo">Explore the mood demo</a>
+  &nbsp;·&nbsp;
+  <a href="https://my-e-wish.vercel.app/contact">Contact the creator</a>
+</p>
 
-> **Launch status:** The app is server-backed, but production readiness depends
-> on configuring and testing MongoDB Atlas, Cloudinary, SMTP, the deployment
-> domain, and admin setup in a staging environment. See [TODO.md](./TODO.md).
+<p align="center">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-App_Router-black?logo=next.js" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-blue?logo=typescript&logoColor=white" />
+  <img alt="MongoDB Atlas" src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" />
+  <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel" />
+</p>
 
-## A look at my e-Wish
+---
 
-The following original illustrations show the visual direction and sample page
-layouts; they are not screenshots of a running user account. The live homepage
-now uses a photo-led, animated hero that is not pictured pixel-for-pixel here.
+my e-Wish helps you turn birthdays, anniversaries, weddings, achievements,
+fresh starts, and just-because moments into personalized, shareable surprise
+pages. Choose a mood, make the design your own, add photos, and hide a little
+surprise inside.
 
-### Homepage
+> **Live now:** [my-e-wish.vercel.app](https://my-e-wish.vercel.app/)  
+> **Questions or feedback?** [Contact Sachin](https://my-e-wish.vercel.app/contact),
+> or visit [Sachin's GitHub profile](https://github.com/SACH01in/).
 
-![Illustrative preview of the my e-Wish homepage](./docs/previews/homepage.svg)
+## At a glance
 
-### A recipient's keepsake
+| Discover | Create | Share |
+|---|---|---|
+| Try the [mood demo](https://my-e-wish.vercel.app/demo) without an account. | Choose an occasion, mood, layout, message, colors, and photos. | Publish a page or protect it with a private access code. |
 
-![Illustrative preview of a personalized my e-Wish recipient page](./docs/previews/recipient-page.svg)
+## A little tour of the live experience
 
-## Try the mood demo
+Real screenshots from the live app—follow the journey from the first hello to
+a wish made just for someone.
 
-Start the app and visit [`/demo`](http://localhost:3000/demo), or select **See
-a live demo** from the homepage. No account is needed. Switch between
-Heartfelt, Playful, Elegant, Dreamy, and Encouraging to see the composition,
-imagery, details, and subtle motion change with the mood. Open the sample
-personal note to preview a meaningful surprise.
+<p align="center">
+  <a href="https://my-e-wish.vercel.app/">
+    <img src="./docs/previews/Hero-Section.png" alt="my e-Wish homepage: a little page, a big feeling" width="100%" />
+  </a>
+  <br />
+  <sub><strong>01 · THE FIRST HELLO</strong> — A warm, photo-led invitation to make a moment personal.</sub>
+</p>
 
-Demo images are loaded from Unsplash and require an internet connection. The
-Content Security Policy permits images from `images.unsplash.com` for this demo.
+<br />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">02 · Find your feeling</h3>
+      <p align="center">Five moods, each with its own visual world.</p>
+      <a href="https://my-e-wish.vercel.app/">
+        <img src="./docs/previews/Hero-Mid.png" alt="Mood selection and how my e-Wish works" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">03 · See the moods come alive</h3>
+      <p align="center">Explore the interactive demo—no account needed.</p>
+      <a href="https://my-e-wish.vercel.app/demo">
+        <img src="./docs/previews/Demo-Page.png" alt="Interactive demo showing an elegant anniversary wish" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">04 · A wish worth keeping</h3>
+      <p align="center">A personalized recipient page with a little surprise tucked inside.</p>
+      <a href="https://my-e-wish.vercel.app/">
+        <img src="./docs/previews/Page-Prev.png" alt="Personalized recipient wish page preview" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">05 · Little moments, together</h3>
+      <p align="center">Discover the thoughtful details waiting below the hero.</p>
+      <a href="https://my-e-wish.vercel.app/">
+        <img src="./docs/previews/Hero-last.png" alt="Closing sections and call to action on the my e-Wish homepage" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://my-e-wish.vercel.app/"><strong>✦ Make a moment of your own ↗</strong></a>
+</p>
+
+<sub>For privacy, the profile screenshot is not embedded here because it shows visitor names. An anonymized version can be added later.</sub>
+
+## Explore the mood demo
+
+Open the public [mood demo](https://my-e-wish.vercel.app/demo)—no account is
+needed. Switch between Heartfelt, Playful, Elegant, Dreamy, and Encouraging to
+see how the composition, imagery, details, and motion respond. Open the sample
+personal note to preview a surprise.
+
+Demo images are loaded from Unsplash and require an internet connection.
 
 ## What it includes
 
@@ -48,8 +119,6 @@ Content Security Policy permits images from `images.unsplash.com` for this demo.
   keepsake.
 - A private, owner-checked preview link on every dashboard wish, including
   unpublished drafts.
-- Occasions for birthdays, anniversaries, weddings, achievements, goals,
-  special moments, new beginnings, and custom events.
 - Personal names, headline, note, sender, cover photo, and shareable page URL.
 - Surprise blocks: private reveal note, attributed quote, answer-checked
   question game, and captioned memory photo. The editor includes prompts to
@@ -82,7 +151,20 @@ Content Security Policy permits images from `images.unsplash.com` for this demo.
 Motion effects respect the visitor's `prefers-reduced-motion` setting. The app
 does not generate personal messages with AI.
 
-### Visitor names and profile analytics
+## Questions, feedback, or support
+
+Use the [creator contact page](https://my-e-wish.vercel.app/contact) to send a
+question or share feedback. You can also visit the creator's
+[GitHub profile](https://github.com/SACH01in/) or
+[LinkedIn profile](https://www.linkedin.com/in/sachin-singh-8b9913264/).
+
+## Project documentation
+
+- [Project knowledge and contributor handoff](./PROJECT_KNOWLEDGE.md)
+- [Implementation and launch checklist](./TODO.md)
+- [Environment variable template](./.env.example)
+
+## Visitor names and profile analytics
 
 Creators can see the names entered by visitors in **My profile**. The visitor
 form discloses this before submission, and private-page visitors first need the
@@ -220,18 +302,20 @@ lib/
 docs/previews/                 Original README preview illustrations
 ```
 
-## Deployment checklist
+## Production and deployment
 
-Before public launch, complete the staging and operational work in
-[TODO.md](./TODO.md), including:
+The app is live at [my-e-wish.vercel.app](https://my-e-wish.vercel.app/). For
+deployment setup, ongoing operations, and remaining production-readiness work,
+see the [project knowledge guide](./PROJECT_KNOWLEDGE.md) and
+[launch checklist](./TODO.md). In particular:
 
 - Test signup, verification, login, password reset, all page-editing flows,
   image upload, private unlock, quiz checking, contact email, and admin support
   access using production-like services.
 - Verify cross-account authorization for pages and media.
-- Configure HTTPS, matching `NEXTAUTH_URL` and `SITE_URL` origins, secure environment variables,
-  Atlas network access and backups, SMTP sender reputation, and Cloudinary
-  access controls.
+- Configure HTTPS, matching `NEXTAUTH_URL` and `SITE_URL` origins, secure
+  environment variables, Atlas network access and backups, SMTP sender
+  reputation, and Cloudinary access controls.
 - Test backup restoration, monitoring, rollback, secret rotation, privacy
   policy, retention, account deletion, and media cleanup.
 
@@ -241,13 +325,12 @@ The public home, demo, and Contact pages have descriptive titles and metadata,
 canonical URLs, Open Graph/Twitter metadata, and the home page includes
 WebSite/WebApplication structured data. `robots.txt` and `sitemap.xml` are
 generated from `SITE_URL`. Account, admin, and individual recipient pages are
-excluded from search indexing to avoid exposing personal content. Configure
-the production domain before launch, then verify the sitemap and submit it in
-Google Search Console and Bing Webmaster Tools. These steps improve crawlability
-and relevance but cannot guarantee a particular search ranking.
+excluded from search indexing to avoid exposing personal content. Verify the
+production sitemap and submit it in Google Search Console and Bing Webmaster
+Tools. These steps improve crawlability and relevance but cannot guarantee a
+particular search ranking.
 
 ## Name
 
 The selected product name is **my e-Wish**. Domain, social handle, and legal or
-trademark availability have not been independently verified; check them before
-launch.
+trademark availability have not been independently verified.
